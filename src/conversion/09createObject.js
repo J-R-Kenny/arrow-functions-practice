@@ -8,9 +8,17 @@
 // @returns {{playerName: string, highScore: number}} object containing a playerName and highScore property.
 */
 //rewrite this function:
-function createObject(name, score) {
-    return { playerName: name, highScore: score };
-}
+// function createObject(name, score) {
+//     return { playerName: name, highScore: score };
+// }
+// createObject("neill", 100);
+
+
+const createObject = (name, score) => ({ playerName: name, highScore: score})
+
 createObject("neill", 100);
+
+
+
 
 export { createObject };
